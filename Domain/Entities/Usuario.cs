@@ -11,7 +11,7 @@ public class Usuario
     [Required]
     [MinLength(3)]
     [MaxLength(100)]
-    public string Nome { get; set; } // Obrigatório, 3-100 caracteres
+    public string Nome { get; set; } = string.Empty;// Obrigatório, 3-100 caracteres
 
     [Required]
     [EmailAddress]
