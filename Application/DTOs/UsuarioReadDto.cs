@@ -8,7 +8,7 @@ public record UsuarioReadDto(
 
     string Email,
 
-    DateTime? DataNascimento,
+    DateTime DataNascimento,
 
     string? Telefone,
 

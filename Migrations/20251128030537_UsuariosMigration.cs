@@ -21,7 +21,7 @@ namespace apiUsuarios.Migrations
                     Email = table.Column<string>(type: "TEXT", nullable: false),
                     Senha = table.Column<string>(type: "TEXT", nullable: false),
                     DataNascimento = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    Telefone = table.Column<string>(type: "TEXT", nullable: false),
+                    Telefone = table.Column<string>(type: "TEXT", nullable: true),
                     Ativo = table.Column<bool>(type: "INTEGER", nullable: false),
                     DataCriacao = table.Column<DateTime>(type: "TEXT", nullable: false),
                     DataAtualizacao = table.Column<DateTime>(type: "TEXT", nullable: true)

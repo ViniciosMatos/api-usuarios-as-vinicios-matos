@@ -13,44 +13,44 @@ public class UsuarioRepository : IUsuarioRepository
     {
         _context = context;
     }
-    public async Task<IEnumerable<Usuario>> GetAllAsync(CancellationToken ct)
+    public async Task<IEnumerable<Usuario>> GetAllAsync(CancellationToken ct = default)
     {
         return await _context.Usuarios.ToListAsync(ct);
     }
 
-    public async Task<Usuario?> GetByIdAsync(int  id, CancellationToken ct)
+    public async Task<Usuario?> GetByIdAsync(int  id, CancellationToken ct = default)
     {
         return await _context.Usuarios.FindAsync(id, ct);
     }
 
-    public async Task<Usuario?> GetByEmailAsync(string  email, CancellationToken ct)
+    public async Task<Usuario?> GetByEmailAsync(string  email, CancellationToken ct = default)
     {
-        return await _context.Usuarios.FindAsync(email, ct);
+        return await _context.Usuarios.SingleOrDefaultAsync(u => u.Email == email, ct);
     }
 
-    public async Task AddAsync(Usuario  usuario, CancellationToken ct)
+    public async Task AddAsync(Usuario  usuario, CancellationToken ct = default)
     {
         await _context.Usuarios.AddAsync(usuario, ct);
     }
 
-    public Task UpdateAsync(Usuario  usuario, CancellationToken ct)
+    public Task UpdateAsync(Usuario  usuario, CancellationToken ct = default)
     {
         _context.Usuarios.Update(usuario);
         return Task.CompletedTask;
     }
 
-    public Task RemoveAsync(Usuario  usuario, CancellationToken ct)
+    public Task RemoveAsync(Usuario  usuario, CancellationToken ct = default)
     {
         _context.Usuarios.Remove(usuario);
         return Task.CompletedTask;
     }
 
-    public async Task<bool> EmailExistsAsync(string  email, CancellationToken ct)
+    public async Task<bool> EmailExistsAsync(string  email, CancellationToken ct = default)
     {
         return await _context.Usuarios.AnyAsync(u => u.Email == email, ct);
     }
 
-    public async Task SaveChangesAsync(CancellationToken ct)
+    public async Task SaveChangesAsync(CancellationToken ct = default)
     {
         await _context.SaveChangesAsync(ct);
     }

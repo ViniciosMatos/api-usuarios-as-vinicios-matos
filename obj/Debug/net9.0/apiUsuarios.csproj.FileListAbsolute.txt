@@ -152,3 +152,6 @@ C:\Users\pichau\OneDrive\Desktop\backEnd\apiusuarios\obj\Debug\net9.0\refint\api
 C:\Users\pichau\OneDrive\Desktop\backEnd\apiusuarios\obj\Debug\net9.0\apiUsuarios.pdb
 C:\Users\pichau\OneDrive\Desktop\backEnd\apiusuarios\obj\Debug\net9.0\apiUsuarios.genruntimeconfig.cache
 C:\Users\pichau\OneDrive\Desktop\backEnd\apiusuarios\obj\Debug\net9.0\ref\apiUsuarios.dll
+C:\Users\pichau\OneDrive\Desktop\backEnd\apiUsuarios\bin\Debug\net9.0\FluentValidation.dll
+C:\Users\pichau\OneDrive\Desktop\backEnd\apiUsuarios\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+C:\Users\pichau\OneDrive\Desktop\backEnd\apiUsuarios\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll

@@ -22,16 +22,15 @@ public class Usuario
     public string Senha { get; set; } = string.Empty; // Obrigatório, min 6 caracteres
 
     [Required]
-    public DateTime? DataNascimento { get; set; } // Obrigatório, idade >= 18 anos
+    public DateTime DataNascimento { get; set; } // Obrigatório, idade >= 18 anos
 
-    [RegularExpression(@"^$|^\(\d{2}\)\s\d{5}-\d{4}$")]
-    public string Telefone { get; set; } = string.Empty; // Opcional, formato (XX) XXXXX-XXXX
+    public string? Telefone { get; set; } // Opcional, formato (XX) XXXXX-XXXX
 
     [Required]
     public bool Ativo { get; set; } = true; // Obrigatório, default true
 
     public DateTime DataCriacao { get; set; } = DateTime.Now;// Obrigatório, preenchido automaticamente
 
-    public DateTime? DataAtualizacao { get; set; } = DateTime.Now; // Opcional, atualizado automaticamente
+    public DateTime? DataAtualizacao { get; set; } // Opcional, atualizado automaticamente
 
 }

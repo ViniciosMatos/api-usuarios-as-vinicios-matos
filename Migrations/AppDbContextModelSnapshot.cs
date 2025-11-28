@@ -49,7 +49,6 @@ namespace apiUsuarios.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Telefone")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");

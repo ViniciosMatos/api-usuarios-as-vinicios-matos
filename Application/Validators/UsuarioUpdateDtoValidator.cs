@@ -24,7 +24,9 @@ public class UsuarioUpdateDtoValidator : AbstractValidator<UsuarioUpdateDto>
 
         RuleFor(u => u.DataNascimento)
         .NotEmpty()
-        .WithMessage("A data de Nascimento deve ser preenchida");
+        .WithMessage("A data de Nascimento deve ser preenchida")
+        .Must(d => d <= DateTime.Today.AddYears(-18))
+        .WithMessage("O usuário precisa ter 18 anos ou mais");
 
         RuleFor(u => u.Telefone)
         .Matches(@"^\(\d{2}\)\s\d{5}-\d{4}$")
