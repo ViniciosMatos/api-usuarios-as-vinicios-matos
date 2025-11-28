@@ -22,9 +22,9 @@ public class Usuario
     public string Senha { get; set; } = string.Empty; // Obrigatório, min 6 caracteres
 
     [Required]
-    public DateTime DataNascimento { get; set; } // Obrigatório, idade >= 18 anos
+    public DateTime? DataNascimento { get; set; } // Obrigatório, idade >= 18 anos
 
-    //ADICIONAR FORMATO
+    [RegularExpression(@"^$|^\(\d{2}\)\s\d{5}-\d{4}$")]
     public string Telefone { get; set; } = string.Empty; // Opcional, formato (XX) XXXXX-XXXX
 
     [Required]

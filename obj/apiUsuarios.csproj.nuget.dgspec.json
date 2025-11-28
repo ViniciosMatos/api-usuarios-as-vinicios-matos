@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\apiusuarios\\apiUsuarios.csproj": {}
+    "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\apiUsuarios\\apiUsuarios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\apiusuarios\\apiUsuarios.csproj": {
+    "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\apiUsuarios\\apiUsuarios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\apiusuarios\\apiUsuarios.csproj",
+        "projectUniqueName": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\apiUsuarios\\apiUsuarios.csproj",
         "projectName": "apiUsuarios",
-        "projectPath": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\apiusuarios\\apiUsuarios.csproj",
+        "projectPath": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\apiUsuarios\\apiUsuarios.csproj",
         "packagesPath": "C:\\Users\\pichau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\apiusuarios\\obj\\",
+        "outputPath": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\apiUsuarios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pichau\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,6 +44,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.1.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.9, )"
