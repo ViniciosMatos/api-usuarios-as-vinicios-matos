@@ -81,6 +81,7 @@ public class UsuarioService : IUsuarioService
             return false;
         
         usuarioEncontrado.Ativo = false;
+        await _repo.RemoveAsync(usuarioEncontrado, ct);
         await _repo.SaveChangesAsync(ct);
         return true;
     }
@@ -89,9 +90,5 @@ public class UsuarioService : IUsuarioService
     {
         return await _repo.EmailExistsAsync(email, ct);
     }
-
-
-
-
 
 }
