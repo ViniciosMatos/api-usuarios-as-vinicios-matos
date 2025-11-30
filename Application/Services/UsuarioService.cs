@@ -34,7 +34,7 @@ public class UsuarioService : IUsuarioService
 
     public async Task<Usuario> CriarAsync(UsuarioCreateDto dto, CancellationToken ct = default)
     {
-        var usuario = UsuarioFactory.Criar(dto.Nome, dto.Email, dto.Senha, dto.DataNascimento, dto.Telefone);
+        var usuario = UsuarioFactory.Criar(dto);
         
         if (await _repo.EmailExistsAsync(dto.Email, ct))
             throw new ArgumentException("O email já está sendo usado por outro usuario.", nameof(dto.Email));

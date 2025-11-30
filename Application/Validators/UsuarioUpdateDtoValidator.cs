@@ -30,7 +30,7 @@ public class UsuarioUpdateDtoValidator : AbstractValidator<UsuarioUpdateDto>
 
         RuleFor(u => u.Telefone)
         .Matches(@"^\(\d{2}\)\s\d{5}-\d{4}$")
-        .When(u => !string.IsNullOrEmpty(u.Telefone))
-        .WithMessage("O telefone deve estar no formato (XX) XXXXX-XXXX");
+        .WithMessage("O telefone deve estar no formato (XX) XXXXX-XXXX")
+        .When(u => !string.IsNullOrEmpty(u.Telefone));
     }
 }

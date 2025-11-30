@@ -95,13 +95,6 @@ app.MapDelete("/usuarios/{id}", async (int id, IUsuarioService service, Cancella
 
 
 
-
-
-
-
-
-
-
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();

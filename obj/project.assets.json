@@ -3282,11 +3282,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\apiusuarios\\apiUsuarios.csproj",
+      "projectUniqueName": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\novaApi\\api-usuarios-as-vinicios-matos\\apiUsuarios.csproj",
       "projectName": "apiUsuarios",
-      "projectPath": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\apiusuarios\\apiUsuarios.csproj",
+      "projectPath": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\novaApi\\api-usuarios-as-vinicios-matos\\apiUsuarios.csproj",
       "packagesPath": "C:\\Users\\pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\apiusuarios\\obj\\",
+      "outputPath": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\novaApi\\api-usuarios-as-vinicios-matos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pichau\\AppData\\Roaming\\NuGet\\NuGet.Config"
