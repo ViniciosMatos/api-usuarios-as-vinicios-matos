@@ -120,8 +120,11 @@ As requisições disponíveis nesta API são:
 ├── API-Usuarios-AS.postman_collection.json
 └── README.md
 
+### Link do Vídeo
+    Drive: https://drive.google.com/drive/folders/1px44mCZCX0OIdNjiyIXp3ydHBAJNfz4k?usp=sharing
+
 ## Autor
 Vinicios Magnus de Matos
-RA: 
+RA: 2025000944
 Curso: Análise e Desnvolvimento de Sistemas
 
