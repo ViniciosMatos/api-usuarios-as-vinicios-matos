@@ -79,46 +79,38 @@ As requisições disponíveis nesta API são:
 
 
 ## Estrutura do Projeto
-├── conteudo-api/
-|  └── Application/
-|     ├── DTOs/
-|     |  ├── UsuarioCreateDto.cs
-|     |  ├── UsuarioReadDto.cs
-|     |  └── UsuarioUpdateDto.cs
-|     |
-|     ├── Interfaces/
-|     |  ├── IUsuarioRepository.cs
-|     |  └── IUsuarioService.cs
-|     |  
-|     ├── Services/
-|     |  ├── MappingExtensions.cs
-|     |  ├── UsuarioFactory.cs
-|     |  └── UsuarioService.cs
-|     |
-|     ├── Validators/
-|     |  ├── UsuarioCreateDtoValidator.cs
-|     |  └── UsuarioUpdateDtoValidator.cs
-|     |
-|     ├── Infrastructure/
-|     |  ├── Persistence/
-|     |     └── AppDbContext.cs
-|     |  |
-|     |  └── Repositories/
-|     |     └── UsuarioRepository.cs
-|     |
-|     ├── Migrations/
-|     |  └── (arquivos gerados automaticamente)
-|     |
-|     ├── (Pastas geradas automáticamente)
-|     |
-|     |
-|     ├── Program.cs
-|     ├── app.db
-|     └── (Arquivos gerados automáticamente)
-|
-├── .gitignore
-├── API-Usuarios-AS.postman_collection.json
-└── README.md
+```
+📦 conteudo-api/
+├─ Application/
+│  ├─ DTOs/
+│  │  ├─ UsuarioCreateDto.cs
+│  │  ├─ UsuarioReadDto.cs
+│  │  └─ UsuarioUpdateDto.cs
+│  ├─ Interfaces/
+│  │  ├─ IUsuarioRepository.cs
+│  │  └─ IUsuarioService.cs
+│  ├─ Services/
+│  │  ├─ MappingExtensions.cs
+│  │  ├─ UsuarioFactory.cs
+│  │  └─ UsuarioService.cs
+│  ├─ Validators/
+│  │  ├─ UsuarioCreateDtoValidator.cs
+│  │  └─ UsuarioUpdateDtoValidator.cs
+│  ├─ Infrastructure/
+│  │  ├─ Persistence/
+│  │  │  └─ AppDbContext.cs
+│  │  └─ Repositories/
+│  │     └─ UsuarioRepository.cs
+│  ├─ Migration/
+│  │  └─ (arquivos gerados automaticamente
+│  ├─ (Pastas geradas automáticamente)
+│  ├─ Program.cs
+│  ├─ app.db
+│  └─ (Arquivos gerados automáticamente)
+├─ .gitignore
+├─ API-Usuarios-AS.postman_collection.json
+└─ README.md
+```
 
 ### Link do Vídeo
     Drive: https://drive.google.com/drive/folders/1px44mCZCX0OIdNjiyIXp3ydHBAJNfz4k?usp=sharing
