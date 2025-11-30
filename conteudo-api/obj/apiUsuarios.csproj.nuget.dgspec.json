@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\novaApi\\api-usuarios-as-vinicios-matos\\apiUsuarios.csproj": {}
+    "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\api-usuarios-as-vinicios-matos\\conteudo-api\\apiUsuarios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\novaApi\\api-usuarios-as-vinicios-matos\\apiUsuarios.csproj": {
+    "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\api-usuarios-as-vinicios-matos\\conteudo-api\\apiUsuarios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\novaApi\\api-usuarios-as-vinicios-matos\\apiUsuarios.csproj",
+        "projectUniqueName": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\api-usuarios-as-vinicios-matos\\conteudo-api\\apiUsuarios.csproj",
         "projectName": "apiUsuarios",
-        "projectPath": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\novaApi\\api-usuarios-as-vinicios-matos\\apiUsuarios.csproj",
+        "projectPath": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\api-usuarios-as-vinicios-matos\\conteudo-api\\apiUsuarios.csproj",
         "packagesPath": "C:\\Users\\pichau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\novaApi\\api-usuarios-as-vinicios-matos\\obj\\",
+        "outputPath": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\api-usuarios-as-vinicios-matos\\conteudo-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pichau\\AppData\\Roaming\\NuGet\\NuGet.Config"

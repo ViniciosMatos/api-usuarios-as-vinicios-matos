@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mB8Mq3IhMio=",
+  "dgSpecHash": "hoIVs3aGN0M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\novaApi\\api-usuarios-as-vinicios-matos\\apiUsuarios.csproj",
+  "projectFilePath": "C:\\Users\\pichau\\OneDrive\\Desktop\\backEnd\\api-usuarios-as-vinicios-matos\\conteudo-api\\apiUsuarios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pichau\\.nuget\\packages\\fluentvalidation\\12.1.0\\fluentvalidation.12.1.0.nupkg.sha512",
     "C:\\Users\\pichau\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",

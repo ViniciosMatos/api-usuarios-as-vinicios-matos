@@ -61,7 +61,7 @@ public class UsuarioService : IUsuarioService
         usuarioEncontrado.Email = dto.Email.ToLower();
         usuarioEncontrado.DataNascimento = dto.DataNascimento;
         usuarioEncontrado.Telefone = dto.Telefone;
-        usuarioEncontrado.Ativo = usuarioEncontrado.Ativo;
+        usuarioEncontrado.Ativo = dto.Ativo;
         usuarioEncontrado.DataAtualizacao = DateTime.Now;
 
         await _repo.UpdateAsync(usuarioEncontrado, ct);
