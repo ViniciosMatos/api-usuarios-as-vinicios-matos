@@ -86,27 +86,36 @@ As requisições disponíveis nesta API são:
 │  │  ├─ UsuarioCreateDto.cs
 │  │  ├─ UsuarioReadDto.cs
 │  │  └─ UsuarioUpdateDto.cs
+│  │
 │  ├─ Interfaces/
 │  │  ├─ IUsuarioRepository.cs
 │  │  └─ IUsuarioService.cs
+│  │
 │  ├─ Services/
 │  │  ├─ MappingExtensions.cs
 │  │  ├─ UsuarioFactory.cs
 │  │  └─ UsuarioService.cs
+│  │
 │  ├─ Validators/
 │  │  ├─ UsuarioCreateDtoValidator.cs
 │  │  └─ UsuarioUpdateDtoValidator.cs
+│  │
 │  ├─ Infrastructure/
 │  │  ├─ Persistence/
 │  │  │  └─ AppDbContext.cs
+│  │  │
 │  │  └─ Repositories/
 │  │     └─ UsuarioRepository.cs
+│  │
 │  ├─ Migration/
-│  │  └─ (arquivos gerados automaticamente
+│  │  └─ (arquivos gerados automaticamente)
+│  │
 │  ├─ (Pastas geradas automáticamente)
+│  │
 │  ├─ Program.cs
 │  ├─ app.db
 │  └─ (Arquivos gerados automáticamente)
+│  
 ├─ .gitignore
 ├─ API-Usuarios-AS.postman_collection.json
 └─ README.md
@@ -116,7 +125,9 @@ As requisições disponíveis nesta API são:
     Drive: https://drive.google.com/drive/folders/1px44mCZCX0OIdNjiyIXp3ydHBAJNfz4k?usp=sharing
 
 ## Autor
+```
 Vinicios Magnus de Matos
 RA: 2025000944
 Curso: Análise e Desnvolvimento de Sistemas
+```
 
